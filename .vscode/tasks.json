@@ -5,6 +5,7 @@
   "args": [
     "-Wall",
     "-Wextra",
+    "-lm",
     "-Wpedantic",
     "-g",
     "${file}",
