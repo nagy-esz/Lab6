@@ -3,6 +3,8 @@ Structures
 
 Tasks:
 
+-> Strings warm-up:)
+
 ->Competitors
 
 ->Circles
