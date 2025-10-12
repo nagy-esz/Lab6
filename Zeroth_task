@@ -18,6 +18,7 @@ extend the program with the following:
 #include <string.h>
 int main(){
     char str1[31], str2[31];
+    
     //read from user here
     for(int i=0;i<31;i++) {
         printf("%dth letter='%c', code=%d\n", i,str[i], str[i]);
