@@ -10,7 +10,7 @@ extend the program with the following:
     Determine and print out the length of str1 (strlen)
     Compare str1 and str2, print out the result! (strcmp)
     Copy the content of str1 to str 2 (strcpy), compare them again!
-    Concatenate str1 and str2. Modify the sizes to avoid overindexing!
+    Concatenate str1 and str2 (strcat). Modify the sizes to avoid overindexing!
     Print the concatenated string!
 */
 
@@ -24,8 +24,11 @@ int main()
     // read from user here
     for (int i = 0; i < 31; i++)
     {
-        printf("%dth letter='%c', code=%d\n", i, str1[i], str2[i]);
+        printf("%dth letter='%c', code=%d\n", i, str1[i], str1[i]);
     }
-
+    for (int i = 0; i < 31; i++)
+    {
+        printf("%dth letter='%c', code=%d\n", i, str2[i], str2[i]);
+    }
     return 0;
 }
