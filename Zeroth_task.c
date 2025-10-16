@@ -22,13 +22,24 @@ int main()
     scanf("%s", str1);
     scanf("%s", str2);
     // read from user here
-    for (int i = 0; i < 31; i++)
+    for (int i = 0; i < strlen(str1); i++)
     {
         printf("%dth letter='%c', code=%d\n", i, str1[i], str1[i]);
     }
-    for (int i = 0; i < 31; i++)
+    for (int i = 0; i < strlen(str2); i++)
     {
         printf("%dth letter='%c', code=%d\n", i, str2[i], str2[i]);
     }
+    printf("The legnth of str1: %d\n", (int)strlen(str1));
+
+    printf("comparing the two strings: %d\n", strcmp(str1, str2));
+
+    strcpy(str1, str2);
+    printf("comparing the two strings: %d\n", strcmp(str1, str2));
+
+    char str3[62];
+    strcat(str3, str1);
+    strcat (str3, str2);
+    
     return 0;
 }
